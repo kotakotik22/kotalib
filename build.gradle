@@ -11,6 +11,7 @@ buildscript {
 
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
+apply from: "private.gradle"
 
 group = 'com.kotakotik'
 version = '1.0-SNAPSHOT'
@@ -140,7 +141,12 @@ publishing {
     }
     repositories {
         maven {
-            url "file:///${project.projectDir}/repo"
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/kotakotik22/kotalib")
+            credentials {
+                username = "kotakotik22"
+                password = github_token
+            }
         }
     }
 }
