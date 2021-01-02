@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 
 group = 'com.kotakotik'
-version = '1.0-SNAPSHOT'
+version = '1.0-TEST'
 archivesBaseName = 'kotalib'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'

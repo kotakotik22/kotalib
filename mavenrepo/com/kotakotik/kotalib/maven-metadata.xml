@@ -3,9 +3,11 @@
   <groupId>com.kotakotik</groupId>
   <artifactId>kotalib</artifactId>
   <versioning>
+    <release>1.0-TEST</release>
     <versions>
       <version>1.0-SNAPSHOT</version>
+      <version>1.0-TEST</version>
     </versions>
-    <lastUpdated>20210102060808</lastUpdated>
+    <lastUpdated>20210102061209</lastUpdated>
   </versioning>
 </metadata>
