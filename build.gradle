@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 
 group = 'com.kotakotik'
-version = '1.0-TEST'
+version = '1.0-SNAPSHOT'
 archivesBaseName = 'kotalib'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
@@ -140,7 +140,7 @@ publishing {
     }
     repositories {
         maven {
-            url "file:///${project.projectDir}/mavenrepo"
+            url "file:///${project.projectDir}/repo"
         }
     }
 }
